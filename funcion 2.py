@@ -10,3 +10,6 @@ def new_tfn():
         print(error)
         input("Press enter to continue.")
         new_tfn()
+
+
+new_tfn()
