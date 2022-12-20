@@ -15,7 +15,7 @@ def order_dict_by_key(diccionario, orden, key=""):
         res = []
         # Si el diccionario no esta formado por otro diccionario, entramos en este if.
         if type(diccionario[x[0]]) != dict:
-            # En caso de que no se haya pasado un parametro key, entramps en except como TypeError.
+            # En caso de que se haya pasado un parametro key, entramps en except como TypeError.
             if key != "":
                 raise TypeError("This dictionary doesn't support the key parameter.")
             # Iteramos para comprobar que todos los contenidos sean del mismo tipo.
