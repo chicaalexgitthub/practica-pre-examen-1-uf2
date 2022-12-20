@@ -1,6 +1,7 @@
 # Importamos los datos desde data
 from data import *
 
+
 # Declaracion de la funcion.
 def order_dict_by_key(diccionario, orden, key=""):
     # Usamos try/except para revisar que todo sea correcto.
